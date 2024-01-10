@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: white;
 }
@@ -7,6 +12,36 @@ html{
 }
 
 /* // Inicio header */
+
+.nav{
+    width: 100%;
+    background-color: #F26419;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    transition: all 0.5s ease;
+    position: fixed;
+}
+.nav_list{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 15px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-family: 'Share Tech', sans-serif;
+}
+.logo img{
+   width: 14em;
+   height: 5.36em;
+}
 
 /* // Inicio Home */
 
