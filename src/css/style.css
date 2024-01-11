@@ -1,12 +1,16 @@
-body{
-    background-color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 html{
     font-family: 'Montserrat', sans-serif;
 }
 
 /* // Inicio header */
+
+
+
 
 /* // Inicio Home */
 
@@ -108,7 +112,25 @@ body {
 
 /* // Inicio header */
 
+
 /* // Inicio Home */
+
+
+#home {
+    display: flex;
+    justify-content: center;
+}
+.video-style {
+    width: 98vw;
+    max-width: 990px;
+    height: auto;
+    object-fit: cover;
+}
+
+.video-style::-webkit-media-controls {
+    display: none;
+}
+
 
 /* // Inicio somos */
 
