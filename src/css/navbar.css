@@ -72,11 +72,14 @@ footer{
     background-color: #F6AE2D;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .social{
     max-width: 10%;
     margin: 5px 10px;
+}
+.social-pages{
+    text-align: right;
 }
 @media only screen and (max-width: 708px){
     footer p{
