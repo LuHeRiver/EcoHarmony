@@ -17,6 +17,67 @@ html{
 /* // Inicio somos */
 
 /* // Inicio Instrumentos */
+.resume-instruments{
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 5%;
+}
+.boton-play{
+    background-color: #F6AE2D;
+    border-radius: 20px;
+    width: 35%;
+    margin-left: 30%;
+    margin-top: 2rem;
+}
+.boton-play img{
+    padding: 1rem;
+}
+.container-instrument,
+.container-instrument-blue{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 20px;
+    width: 70%;
+    height: 10%;
+    margin-top: 2%;
+}
+.container-instrument{
+    background-color: #F26419;
+}
+.container-instrument-blue{
+    background-color: #33658A;
+}
+.container-instrument .image-instrument img,
+.container-instrument-blue .image-instrument img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+}
+.container-instrument .image-instrument img{
+    border-radius: 20px 0 0 20px;
+}
+.container-instrument-blue .image-instrument img{
+    border-radius: 0 20px 20px 0;
+}
+.instruments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description-instrument p{
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin-top: 4em;
+}
+.description-instrument .boton-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* // Inicio Footer */
 
