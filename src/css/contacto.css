@@ -71,14 +71,24 @@ main {
 
 .contact--button {
     background-color: #F6AE2D;
-    border-radius: 5px;
+    border: 1px solid #F6AE2D;
+    border-radius: 8px;
     width: min-content;
     align-self: center;
+    padding: 5px 10px;
 }
 
 .contact--button:hover {
     cursor: pointer;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
 }
+
+.contact--button:active {
+    background-color: #F26419; 
+    border: 1px solid #F26419;
+}
+
 
 @media screen and (max-width: 800px) {
     .contact--img{
