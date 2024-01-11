@@ -11,10 +11,22 @@
         href="https://fonts.googleapis.com/css2?family=Alata&family=Didact+Gothic&family=Inter+Tight:wght@300&family=Jost:wght@200;300&family=Montserrat&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../src/css/contacto.css">
+    <link rel="stylesheet" href="../src/css/navbar.css">
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <img class="logo" src="./public/assets/img/Logo_ecoHarmony.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><img src="./public/assets/img/OpenMenu.png" alt="icono para abrir menu"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><img src="./public/assets/img/CloseMenu.png" alt="icono cerrar menu"></i></button>
+            <ul class="nav-list">
+                <li><a href="#somos">Somos</a></li>
+                <li><a href="#nstrumentos">Instrumentos</a></li>
+                <li><a href="./pages/Contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <h2 class="contact--title">Contactáctanos</h2>
         <p class="contact--subtitle">Si deseas ponerte en contacto con nosotras, rellena el siguiente formulario y te responderemos a la mayor brevedad posible.</p>
@@ -30,6 +42,7 @@
         </div>
     </main>
     <footer></footer>
+    <script src="../src/js/navbar.js"></script>
 </body>
 
 </html>
