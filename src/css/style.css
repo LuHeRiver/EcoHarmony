@@ -1,12 +1,16 @@
-body{
-    background-color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 html{
     font-family: 'Montserrat', sans-serif;
 }
 
 /* // Inicio header */
+
+
+
 
 /* // Inicio Home */
 
@@ -22,6 +26,7 @@ html{
 /* // Inicio @mediaqueries */
 
 /* // Inicio header */
+
 
 /* // Inicio Home */
 
