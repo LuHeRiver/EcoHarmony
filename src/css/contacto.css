@@ -41,7 +41,8 @@ main {
 }
 
 .contact--img{
-    height: 200px;
+    height: 150px;
+    align-self: center;
 }
 
 .contact--form {
