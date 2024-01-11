@@ -74,13 +74,20 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
-footer p{
-    /* margin-left: 5%; */
-}
 .social{
     max-width: 10%;
     margin: 5px 10px;
 }
-.social-pages{
-    
+@media only screen and (max-width: 708px){
+    footer p{
+        font-size: 0.5em;
+        margin-left: 13%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.2em;
+        gap: 20%;
+    }
 }

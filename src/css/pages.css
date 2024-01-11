@@ -109,13 +109,19 @@ html{
 .building{
     background-color: #33658A;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    height: 82vh;
+}
+.description-contruccion{
+    padding: 0;
+    border: 0;
+    text-align: left;
 }
 .male-building{
     max-width: 36%;
     margin-top: 3%;
+    margin-left: 10%;
+    padding: 0;
 }
 .page-construccion,
 .page-justify{
@@ -154,6 +160,7 @@ html{
     }
     .male-building{
        margin-top: 0;
-       max-width: 80%;
+       max-width: 70%;
+       margin-bottom: 20%;
     }
 }
