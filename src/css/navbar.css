@@ -65,6 +65,22 @@ header{
     .nav-list li a{
         font-size: 1em;
     }
+}
 
-
+/*-------------footer---------*/
+footer{
+    background-color: #F6AE2D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p{
+    /* margin-left: 5%; */
+}
+.social{
+    max-width: 10%;
+    margin: 5px 10px;
+}
+.social-pages{
+    
 }

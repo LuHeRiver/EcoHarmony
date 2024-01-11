@@ -103,3 +103,57 @@ html{
         width: 80%;
     }
 }
+
+/*----------Página en construcción-------------*/
+
+.building{
+    background-color: #33658A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.male-building{
+    max-width: 36%;
+    margin-top: 3%;
+}
+.page-construccion,
+.page-justify{
+    text-align: center;
+    color: #F6AE2D;
+    margin: 0;
+    text-shadow: 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    margin-top: 3%;
+}
+.page-construccion{
+    font-size: 3rem;
+    text-align: left;
+}
+.page-justify{
+    font-size: 1rem;
+    text-align: right;
+    margin-top: 0;
+}
+@media only screen and (max-width: 708px){
+    .building{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 667px;
+    }
+    .page-construccion{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .page-justify{
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .male-building{
+       margin-top: 0;
+       max-width: 80%;
+    }
+}
