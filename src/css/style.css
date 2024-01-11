@@ -63,8 +63,8 @@ body {
     background-color: rgba(242, 100, 25, 0.40);
     border-radius: 25px;
     height: auto;
-    width: 21vw;
-    padding: 1vw;
+    width: 426px;
+    padding: 2vw;
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -81,10 +81,10 @@ body {
 }
 
 .imgBox {
-    background-color: grey;
-    height: 30vh;
+    height: auto;
     width: 15vw;
     border-radius: 50%;
+    border: 5px solid #758E4F;
 }
 
 .artistName {
