@@ -1,5 +1,7 @@
-body{
-    background-color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -12,7 +14,7 @@ main {
     border-radius: 10px;
     width: 85%;
     max-width: 900px;
-    margin: auto;
+    margin: 30px auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
