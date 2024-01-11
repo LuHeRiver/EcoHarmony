@@ -41,6 +41,7 @@ html{
     width: 70%;
     height: 380px;
     margin-top: 2%;
+    font-size: 1em;
 }
 .container-instrument{
     background-color: #F26419;
@@ -91,6 +92,41 @@ html{
 /* // Inicio somos */
 
 /* // Inicio Instrumentos */
+@media only screen and (max-width: 708px){
+.resume-instruments{
+    font-size: 0.9em;
+}
+.container-instrument,
+.container-instrument-blue{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 250px;
+    margin-top: 2%;
+    text-align: justify;
+    font-size: 0.75em;
+    border-radius: 20px;
+}
+.container-instrument p,
+.container-instrument-blue p{
+    display: none;
+}
+.container-instrument .image-instrument{
+    border-radius: 20px 20px 0 0;
+}
+.container-instrument-blue{
+    flex-direction: column-reverse;
+    border-radius: 20px;
+}
+.container-instrument-blue .image-instrument{
+    border-radius: 20px 20px 0 0;
+}
+.boton-play{
+    padding: 0;
+    margin-bottom: 5%;
+    margin-top: 4%;
+}
+}
 
 /* // Inicio Footer */
 
