@@ -16,11 +16,6 @@ html{
 
 /* // Inicio somos */
 
-body {
-    margin: 0;
-
-}
-
 .row::after {
     content: "";
     clear: both;
