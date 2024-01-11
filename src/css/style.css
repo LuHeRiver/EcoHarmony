@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,80 +22,208 @@ html{
     clear: both;
     display: table;
 }
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
 
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@media only screen and (min-width: 768px) {
 
-.grid {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
 
-.boxSomos {
-    height: 100vh;
-    margin: 0vh 4vw;
-}
+    .col-2 {
+        width: 16.66%;
+    }
 
-.descriptionText {
-    text-align: center;
-    font-size: 1.2em;
-    background-color: rgba(242, 100, 25, 0.40);
-    border-radius: 25px;
-    height: auto;
-    width: 426px;
-    padding: 2vw;
-    /* display: flex;
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .flexDesktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxSomos {
+        height: 100vh;
+        margin: 0vh 4vw;
+    }
+
+    .descriptionText {
+        text-align: center;
+        font-size: 1.2em;
+        background-color: rgba(242, 100, 25, 0.40);
+        border-radius: 25px;
+        height: auto;
+        width: 426px;
+        padding: 2vw;
+        /* display: flex;
     align-items: center;
     justify-content: center; */
+    }
+
+    .blueText {
+        color: #33658A;
+        font-weight: 900
+    }
+
+    .boxMusicians {
+        height: 50vh;
+        width: auto;
+    }
+
+    .imgBox {
+        height: auto;
+        width: 15vw;
+        border-radius: 50%;
+        border: 5px solid #758E4F;
+    }
+
+    .artistName {
+        margin: 1vh 0vw;
+        color: #758E4F;
+        font-weight: 900;
+    }
+
+    .artistDescription {
+        font-size: 0.8em;
+        text-align: center;
+        width: 15vw;
+        margin: 0;
+    }
 }
 
-.blueText {
-    color: #33658A;
-    font-weight:900
-}
+@media only screen and (max-width: 708px) {
 
-.boxMusicians {
-    height: 50vh;
-    width: auto;
-}
+    /*For mobile phone*/
+    .col-1 {
+        width: 25%;
+    }
 
-.imgBox {
-    height: auto;
-    width: 15vw;
-    border-radius: 50%;
-    border: 5px solid #758E4F;
-}
+    .col-2 {
+        width: 50%;
+    }
 
-.artistName {
-    margin: 1vh 0vw;
-    color: #758E4F;
-    font-weight: 900;
-}
+    .col-3 {
+        width: 75%;
+    }
 
-.artistDescription {
-    font-size: 0.8em;
-    text-align: center;
-    width: 15vw;
-    margin: 0;
-}
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: 100%;
+    }
 
+    .flexMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boxSomos {
+        margin-top: 5vh;
+    }
+
+    .descriptionText {
+        text-align: center;
+        font-size: 1.2em;
+        background-color: rgba(242, 100, 25, 0.40);
+        border-radius: 25px;
+        height: auto;
+        width: 426px;
+        padding: 2vw;
+        /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    }
+
+    .blueText {
+        color: #33658A;
+        font-weight: 900
+    }
+
+    .boxMusicians {
+        height: 50vh;
+        width: auto;
+    }
+
+    .imgBox {
+        height: auto;
+        width: 60vw;
+        border-radius: 50%;
+        border: 5px solid #758E4F;
+    }
+
+    .artistName {
+        margin: 1vh 0vw;
+        color: #758E4F;
+        font-weight: 900;
+    }
+
+    .artistDescription {
+        font-size: 0.8em;
+        text-align: center;
+        width: 15vw;
+        margin: 0;
+    }
+
+
+
+}
 
 /* // Inicio Instrumentos */
 
@@ -115,6 +244,7 @@ html{
     display: flex;
     justify-content: center;
 }
+
 .video-style {
     width: 98vw;
     max-width: 990px;
@@ -132,6 +262,3 @@ html{
 /* // Inicio Instrumentos */
 
 /* // Inicio Footer */
-
-
-
