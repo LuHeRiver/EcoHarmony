@@ -53,6 +53,8 @@ html{
     display: flex;
     align-content: space-around;
     align-items: center;
+    margin-top: -2%;
+    margin-bottom: -2%;
     animation: scroll 30s linear infinite;
     -webkit-animation: scroll 30s linear infinite;
     width: (calc(200% * 16));
@@ -97,12 +99,23 @@ html{
 /* // Inicio Home */
 
 @media only screen and (min-width: 320px) and (max-width: 1000px) {
+
     .slide-track {
         display: flex;
-        align-items: flex-start;
-        margin-bottom: -5%;
-        margin-top: -5%;
-    }       
+        align-items: center;
+        align-items: stretch;
+        height: auto;
+    }     
+    
+    .slide {
+        align-items: center;
+        align-items: stretch;
+    }
+
+    #fondo_carrousel {
+        padding-top: -5%;
+        padding-bottom: -5%;
+    }
 }
 
 
