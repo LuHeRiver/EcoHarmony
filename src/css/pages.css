@@ -8,6 +8,51 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+.piano-title {
+    margin: 50px;
+    text-align: center;
+    color: #F6AE2D;
+    font-size: 2rem;
+    text-shadow: 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+
+/*Piano*/
+
+.piano{
+    display: flex;
+    margin: 50px;
+}
+
+.tecla{
+    position: absolute;
+}
+.tecla:hover{
+    cursor: pointer;
+}
+.tecla:active{
+    background-color: #F6AE2D;
+}
+
+.blanca{
+    width: 30px;
+    height: 120px;
+    background-color: #000000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.negra{
+    width: 50px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+/*Contacto*/
+
 .contacto {
     background-color: #758E4F;
     border: 1px solid #000;
