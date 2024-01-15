@@ -172,7 +172,6 @@ html{
     border: 1px solid #F26419;
 }
 
-
 @media screen and (max-width: 800px) {
     .contact--img{
         display: none;
