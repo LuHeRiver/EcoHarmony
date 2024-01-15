@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
 
-function valida_envia() {
+function valida_form() {
     if (form.elements[0].value=="") {
         alert("Por favor, rellene su nombre")
     }
