@@ -54,10 +54,10 @@ html{
     align-content: space-around;
     align-items: center;
     margin-top: -2%;
-    margin-bottom: -2%;
+    margin-bottom: -1%;
     animation: scroll 30s linear infinite;
     -webkit-animation: scroll 30s linear infinite;
-    width: (calc(200% * 16));
+    width: (calc(200% * 14));
 }
 
 .slider .slide {
@@ -98,19 +98,13 @@ html{
 
 /* // Inicio Home */
 
-@media only screen and (min-width: 320px) and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 
-    .slide-track {
-        display: flex;
-        align-items: center;
-        align-items: stretch;
-        height: auto;
+    .instrumento {
+        width: auto;
+        height: 30px;
     }     
     
-    .slide {
-        align-items: center;
-        align-items: stretch;
-    }
 
     #fondo_carrousel {
         padding-top: -5%;
