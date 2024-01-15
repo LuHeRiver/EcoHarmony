@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoHarmony</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Didact+Gothic&family=Inter+Tight:wght@300&family=Jost:wght@200;300&family=Montserrat&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/pages.css">
+    <link rel="stylesheet" href="../src/css/navbar.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../public/assets/img/Logo_ecoHarmony.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><img src="../public/assets/img/OpenMenu.png"
+                alt="icono para abrir menu"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><img src="../public/assets/img/CloseMenu.png"
+                    alt="icono cerrar menu"></i></button>
+            <ul class="nav-list">
+                <li><a href="../index.html#somos">Somos</a></li>
+                <li><a href="../index.html#instrumentos">Instrumentos</a></li>
+                <li><a href="../pages/Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contacto">
+            <h2 class="contact--title">Contactáctanos</h2>
+            <p class="contact--subtitle">Si deseas ponerte en contacto con nosotras, rellena el siguiente formulario y
+                te responderemos a la mayor brevedad posible.</p>
+            <div class="contact--div">
+                <img class="contact--img" src="../public/assets/img/clave de sol.png" alt="Clave de Sol">
+                <form class="contact--form" action="">
+                    <label for="name">Nombre</label><input id="name" required>
+                    <label for="email">Email</label><input type="email" required id="email">
+                    <label for="msg">Mensaje</label><textarea id="msg" rows="5" required></textarea>
+                    <button class="contact--button" type="submit">Enviar</button>
+                </form>
+                <img class="contact--img" src="../public/assets/img/clave de sol.png" alt="Clave de Sol">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 EcoHarmony - Todos los derechos reservados</p>
+        <div class="social-pages">
+            <a href="https://www.facebook.com/"><img class="social" src="../public/assets/img/footer/Facebook.png" alt="logo facebook"></a>
+            <a href="https://www.instagram.com/"><img class="social" src="../public/assets/img/footer/Instagram.png" alt="logo instagram"></a>
+            <a href="https://github.com/"><img class="social" src="../public/assets/img/footer/GitHub.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="../src/js/navbar.js"></script>
+</body>
+
+</html>
