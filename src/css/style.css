@@ -55,7 +55,7 @@ html {
     align-content: space-around;
     align-items: center;
     margin-top: -2%;
-    margin-bottom: -2%;
+    margin-bottom: -1%;
     animation: scroll 30s linear infinite;
     -webkit-animation: scroll 30s linear infinite;
     width: (calc(200% * 16));
@@ -81,7 +81,7 @@ html {
     transform: translateX(calc(-200px * 8));
     }
 }
-/* Inicio Carrousel Infinito */
+/* Fin Carrousel Infinito */
 
 
 /* // Inicio somos */
@@ -370,7 +370,6 @@ html {
 
 @media only screen and (min-width: 320px) and (max-width: 1000px) {
 
-<<<<<<< HEAD
     .slide-track {
         display: flex;
         align-items: center;
@@ -382,19 +381,6 @@ html {
         align-items: center;
         align-items: stretch;
     }
-=======
-#home {
-    display: flex;
-    justify-content: center;
-}
-
-.video-style {
-    width: 98vw;
-    max-width: 990px;
-    height: auto;
-    object-fit: cover;
-}
->>>>>>> c9a8de7fe1891843a72e33833fa8c853e6fe6569
 
     #fondo_carrousel {
         padding-top: -5%;
