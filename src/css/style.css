@@ -38,9 +38,8 @@ html {
     background-color: #F4F4F4;
 }
 
-.slide {
-    margin-top: 1.5vw;
-    margin-left: 60px;
+.instrumento {
+    margin: 10px 30px;
 }
 
 .slider {
@@ -52,23 +51,9 @@ html {
 
 .slider .slide-track {
     display: flex;
-    align-content: space-around;
-    align-items: center;
-    margin-top: -2%;
-    margin-bottom: -1%;
     animation: scroll 30s linear infinite;
     -webkit-animation: scroll 30s linear infinite;
-    width: (calc(200% * 14));
 }
-
-.slider .slide {
-    width: 100px;
-}
-
-.slider .slide {
-    width: 90%;
-}
-
 
 @keyframes scroll {
     0% {
@@ -368,20 +353,13 @@ html {
 
 /* // Inicio Home */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 708px) {
 
     .instrumento {
-        width: auto;
-        height: 30px;
-    }     
-    
-
-    #fondo_carrousel {
-        padding-top: -5%;
-        padding-bottom: -5%;
+        height: 15px;
+        margin: 8px 15px;
     }
 }
-
 
 /* // Inicio somos */
 
