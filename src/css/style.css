@@ -42,6 +42,9 @@ html{
     height: 380px;
     margin-top: 2%;
     font-size: 1em;
+    box-shadow: 2px 2px 5px 1px;
+    border-color: black;
+    border-style: solid;
 }
 .container-instrument{
     background-color: #F26419;
@@ -99,7 +102,7 @@ html{
 /* // Inicio Instrumentos */
 @media screen and (max-width: 708px){
 .resume-instruments{
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 .container-instrument,
 .container-instrument-blue{
@@ -142,6 +145,9 @@ html{
     flex-direction: column;
     text-align: justify;
     gap: 1%;
+}
+.description-instrument p{
+    margin-top: 1em;
 }
 }
 
