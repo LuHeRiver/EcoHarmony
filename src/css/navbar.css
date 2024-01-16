@@ -93,6 +93,10 @@ footer{
     align-items: center;
     justify-content: space-around;
 }
+footer p{
+    padding: 0.5em;
+    margin-top: 13px;
+}
 .social{
     max-width: 10%;
     margin: 5px 10px;
