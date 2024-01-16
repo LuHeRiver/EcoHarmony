@@ -61,12 +61,16 @@ html{
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
+    gap: 5%;
 }
 .description-instrument p{
     color: white;
     padding: 1em;
     text-align: center;
     margin-top: 4em;
+}
+.texto-mob{
+    display: none;
 }
 .description-instrument .boton-play{
     display: flex;
@@ -93,7 +97,7 @@ html{
 /* // Inicio somos */
 
 /* // Inicio Instrumentos */
-@media only screen and (max-width: 708px){
+@media screen and (max-width: 708px){
 .resume-instruments{
     font-size: 0.9em;
 }
@@ -101,19 +105,26 @@ html{
 .container-instrument-blue{
     display: flex;
     flex-direction: column;
-    width: 70%;
-    height: 250px;
-    margin-top: 2%;
+    width: 80%;
+    height: auto;
     text-align: justify;
     font-size: 0.75em;
     border-radius: 20px;
 }
-.container-instrument p,
-.container-instrument-blue p{
+.texto-desktop{
     display: none;
+}
+.texto-mob{
+    display: block;
+    color: white;
+    font-size: 1.4em;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .container-instrument .image-instrument{
     border-radius: 20px 20px 0 0;
+    margin-bottom: 0;
 }
 .container-instrument-blue{
     flex-direction: column-reverse;
@@ -124,8 +135,13 @@ html{
 }
 .boton-play{
     padding: 0;
-    margin-bottom: 5%;
-    margin-top: 4%;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.instruments{
+    flex-direction: column;
+    text-align: justify;
+    gap: 1%;
 }
 }
 
