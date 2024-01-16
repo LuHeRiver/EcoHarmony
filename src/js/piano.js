@@ -40,7 +40,7 @@ document.addEventListener('keydown', (event) => {
             keys[i].classList.add('playing'); 
             setTimeout(() => {
                 keys[i].classList.remove('playing'); 
-            }, pianoKeys[i][1].duration * 1000);
+            }, pianoKeys[i][1]);
             return 0;
         }
     }
