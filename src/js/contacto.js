@@ -12,6 +12,7 @@ function valida_form() {
     else if (form.elements[2].value=="") {
         alert("Debe escribir un contenido en el mensaje")
     }
+    
     return 0
 
 }
