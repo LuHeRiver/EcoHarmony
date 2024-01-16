@@ -33,6 +33,9 @@ html{
     margin: 50px;
     overflow: hidden;
     position: fixed;
+    background-color: black;
+    padding: 50px 20px 10px 20px;
+    border-radius: 15px;
 }
 
 /* .tecla{
