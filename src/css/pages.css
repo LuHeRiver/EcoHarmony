@@ -22,7 +22,6 @@ html{
 .piano{
     display: flex;
     margin: 50px;
-    box-shadow: 0 0 7px #000;
     overflow: hidden;
     position: fixed;
 }
@@ -33,10 +32,11 @@ html{
 
 .key {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     font-weight: bold;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .key:hover{
