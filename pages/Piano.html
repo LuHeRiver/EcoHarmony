@@ -29,24 +29,46 @@
     </header>
     <main>
         <h2 class="piano-title">Piano virtual</h2>
-        <ul class="piano">
-            <li class="white key">Q</li>
-            <li class="white key">W</li>
-            <li class="white key">E</li>
-            <li class="white key">R</li>
-            <li class="white key">T</li>
-            <li class="white key">Y</li>
-            <li class="white key">U</li>
+        <!-- <ul class="piano">
+            <li class="white key" data-key="Q">Q<audio data-key="Q" src="../public/assets/audio/1.mp3"></audio></li>
+            <li class="white key" data-key="W">W</li>
+            <li class="white key" data-key="E">E</li>
+            <li class="white key" data-key="R">R</li>
+            <li class="white key" data-key="T">T</li>
+            <li class="white key" data-key="Y">Y</li>
+            <li class="white key" data-key="U">U</li>
             
     
-            <li id="key-1" class="black key">2</li>
-            <li id="key-2" class="black key">3</li>
-            <li id="key-3" class="black key">5</li>
-            <li id="key-4" class="black key">6</li>
-            <li id="key-5" class="black key">7</li>
+            <li id="key-1" class="black key" data-key="2">2</li>
+            <li id="key-2" class="black key" data-key="3">3</li>
+            <li id="key-3" class="black key" data-key="5">5</li>
+            <li id="key-4" class="black key" data-key="6">6</li>
+            <li id="key-5" class="black key" data-key="7">7</li>       
+        </ul> -->
+        <ul class="piano">
+            <li class="white key" data-note="1">Q</li>
+            <li class="white key" data-note="2">W</li>
+            <li class="white key" data-note="3">E</li>
+            <li class="white key" data-note="4">R</li>
+            <li class="white key" data-note="5">T</li>
+            <li class="white key" data-note="6">Y</li>
+            <li class="white key" data-note="7">U</li>
+            
+    
+            <li id="key-1" class="black key" data-note="a">2</li>
+            <li id="key-2" class="black key" data-note="b">3</li>
+            <li id="key-3" class="black key" data-note="c">5</li>
+            <li id="key-4" class="black key" data-note="d">6</li>
+            <li id="key-5" class="black key" data-note="e">7</li>       
         </ul>
+        <audio src="../public/assets/audio/1.mp3" id="1"></audio>
+        <audio src="../public/assets/audio/2.mp3" id="2"></audio>
+        <audio src="../public/assets/audio/3.mp3" id="3"></audio>
+        <audio src="../public/assets/audio/4.mp3" id="4"></audio>
+        <audio src="../public/assets/audio/5.mp3" id="5"></audio>
     </main>
     <footer></footer>
+    <script src="../src/js/piano.js"></script>
     <script src="../src/js/navbar.js"></script>
 </body>
 
