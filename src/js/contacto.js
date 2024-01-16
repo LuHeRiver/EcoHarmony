@@ -13,5 +13,4 @@ function valida_envia() {
         alert("Debe escribir un contenido en el mensaje")
     }
     return 0
-
 }
