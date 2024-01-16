@@ -2,18 +2,23 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.3rem 2rem 0;
     background-color: #F26419;
+    padding: 0 1.5rem;
     z-index: 3;
 }
 
 .logo{
-   max-width: 13rem;
+   width: 12rem;
+   margin-top: 0.2rem;
+   overflow: hidden;
 }
+
 .nav-list{
     display: flex;
     list-style: none;
     gap: 3rem;
+    align-items: center;
+    margin: 0;
 }
 .nav-list li a{
     text-decoration: none;
@@ -29,6 +34,9 @@ header{
     display: none;
 }
 @media only screen and (max-width: 708px){
+    header{
+        padding: 0 0.9rem;
+    }
     .logo{
         max-width: 8rem;
     }
@@ -36,10 +44,13 @@ header{
     .cerrar-menu{
         display: block;
         border: 0;
-        font-size: 1.2rem;
         background-color: transparent;
         cursor: pointer;
         color: white;
+    }
+    .cerrar-menu img {
+        height: 20px;
+        margin-top: -5px;
     }
     .nav{
         display: none; 
@@ -48,14 +59,15 @@ header{
         display: flex;
         flex-direction: column;
         align-items: end;
-        gap: 1rem;
+        gap: 1.5rem;
         position: absolute;
         top: 0;
         right: 0;
-        bottom: 0;
         background-color: #F26419;
-        padding: 2rem;
+        padding: 1rem 1rem 1rem 0;
         z-index: 3;
+        border-radius: 0 10px;
+        box-shadow: 0 3px #ffffff;
     }
     .nav.visible{
         opacity: 1;
@@ -64,6 +76,8 @@ header{
     .nav-list{
         flex-direction: column;
         align-items: end;
+        gap: 1.5rem;
+        padding-left: 0.9rem;
     }
     .nav-list li a{
         font-size: 1em;
