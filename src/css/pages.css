@@ -19,6 +19,11 @@ html{
 
 /*Piano*/
 
+.piano-div {
+    display: flex;
+    justify-content: center;
+}
+
 .piano{
     display: flex;
     margin: 50px;
