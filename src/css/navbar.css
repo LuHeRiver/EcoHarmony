@@ -4,7 +4,9 @@ header{
     justify-content: space-between;
     padding: 0.3rem 2rem 0;
     background-color: #F26419;
+    z-index: 3;
 }
+
 .logo{
    max-width: 13rem;
 }
@@ -53,6 +55,7 @@ header{
         bottom: 0;
         background-color: #F26419;
         padding: 2rem;
+        z-index: 3;
     }
     .nav.visible{
         opacity: 1;
