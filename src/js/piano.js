@@ -1,27 +1,18 @@
 let pianoKeys = [
-    ["q", "../public/assets/audio/1.mp3"],
-    ["w", "../public/assets/audio/2.mp3"],
-    ["e", "../public/assets/audio/3.mp3"],
-    ["r", "../public/assets/audio/4.mp3"],
-    ["t", "../public/assets/audio/5.mp3"],
-    ["y", "../public/assets/audio/6.mp3"],
-    ["u", "../public/assets/audio/7.mp3"],
-    ["2", "../public/assets/audio/a.mp3"],
-    ["3", "../public/assets/audio/b.mp3"],
-    ["5", "../public/assets/audio/c.mp3"],
-    ["6", "../public/assets/audio/d.mp3"],
-    ["7", "../public/assets/audio/e.mp3"]]
-
-
-/* keys.forEach(key =>{
-    key.addEventListener('click', () => playNote(key))
-}) */
-
-/* function playNote(key){
-    const noteAudio = document.getElementById(key.dataset.note)
-    noteAudio.play()
-}
-*/
+    ["q", "../public/assets/audio/q.mp3"],
+    ["w", "../public/assets/audio/w.mp3"],
+    ["e", "../public/assets/audio/e.mp3"],
+    ["r", "../public/assets/audio/r.mp3"],
+    ["t", "../public/assets/audio/t.mp3"],
+    ["y", "../public/assets/audio/y.mp3"],
+    ["u", "../public/assets/audio/u.mp3"],
+    ["2", "../public/assets/audio/2.mp3"],
+    ["3", "../public/assets/audio/3.mp3"],
+    ["5", "../public/assets/audio/5.mp3"],
+    ["6", "../public/assets/audio/6.mp3"],
+    ["7", "../public/assets/audio/7.mp3"],
+    ["8", "../public/assets/audio/8.mp3"],
+];
 
 const keys = document.querySelectorAll('.key');
 

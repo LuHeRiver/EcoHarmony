@@ -71,26 +71,40 @@ html{
     transition: transform .3s ease;
 }
 
-#key-1 {
+#bk-1 {
     margin-left: 35px;
 }
 
-#key-2 {
+#bk-2 {
     margin-left: 85px;
 }
 
-#key-3{
+#bk-3{
     margin-left: 185px;
 }
 
-#key-4 {
+#bk-4 {
     margin-left: 235px;
 }
 
-#key-5 {
+#bk-5 {
     margin-left: 285px;
 }
-
+#bk-6 {
+    margin-left: 385px;
+} 
+#bk-7 {
+    margin-left: 435px;
+}
+#bk-8 {
+    margin-left: 535px;
+}
+#bk-9 {
+    margin-left: 585px;
+}
+#bk-10 {
+    margin-left: 635px;
+}
 /*Contacto*/
 
 .contacto {
