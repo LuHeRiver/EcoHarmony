@@ -6,9 +6,14 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
-    min-height: 800px;
+   /*  min-height: 800px; */
 }
-
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .piano-body {
     background-color: #33658A;
 }
@@ -20,20 +25,25 @@ html{
     font-size: 2rem;
     text-shadow: 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
-
+.instruccion{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
 
 /*Piano*/
 
 .piano-div {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .piano{
     display: flex;
     margin: 50px;
     overflow: hidden;
-    position: fixed;
+   /*  position: fixed; */
     background-color: black;
     padding: 50px 20px 10px 20px;
     border-radius: 15px;
