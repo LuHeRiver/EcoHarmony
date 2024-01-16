@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../src/css/navbar.css">
 </head>
 
-<body>
+<body class="piano-body">
     <header>
         <a href="../index.html"><img class="logo" src="../public/assets/img/Logo_ecoHarmony.png" alt="Logo"></a>
         <button id="abrir" class="abrir-menu"><img src="../public/assets/img/OpenMenu.png" alt="icono para abrir menu"></i></button>
@@ -29,24 +29,36 @@
     </header>
     <main>
         <h2 class="piano-title">Piano virtual</h2>
-        <ul class="piano">
-            <li class="white key">Q</li>
-            <li class="white key">W</li>
-            <li class="white key">E</li>
-            <li class="white key">R</li>
-            <li class="white key">T</li>
-            <li class="white key">Y</li>
-            <li class="white key">U</li>
-            
+        <div class="piano-div"><ul class="piano">
+            <li class="white key" data-note="q">Q</li>
+            <li class="white key" data-note="w">W</li>
+            <li class="white key" data-note="e">E</li>
+            <li class="white key" data-note="r">R</li>
+            <li class="white key" data-note="t">T</li>
+            <li class="white key" data-note="y">Y</li>
+            <li class="white key" data-note="u">U</li>
+            <li class="white key" data-note="z">Z</li>
+            <li class="white key" data-note="x">X</li>
+            <li class="white key" data-note="c">C</li>
+            <li class="white key" data-note="v">V</li>
+            <li class="white key" data-note="b">B</li>
+            <li class="white key" data-note="n">N</li>
+            <li class="white key" data-note="m">M</li>
     
-            <li id="key-1" class="black key">2</li>
-            <li id="key-2" class="black key">3</li>
-            <li id="key-3" class="black key">5</li>
-            <li id="key-4" class="black key">6</li>
-            <li id="key-5" class="black key">7</li>
-        </ul>
+            <li id="bk-1" class="black key" data-note="2">2</li>
+            <li id="bk-2"class="black key" data-note="3">3</li>
+            <li id="bk-3" class="black key" data-note="5">5</li>
+            <li id="bk-4"class="black key" data-note="6">6</li>
+            <li id="bk-5" class="black key" data-note="7">7</li> 
+            <li id="bk-6"class="black key" data-note="s">S</li>
+            <li id="bk-7"class="black key" data-note="d">D</li>
+            <li id="bk-8"class="black key" data-note="g">G</li>
+            <li id="bk-9"class="black key" data-note="h">H</li>
+            <li id="bk-10"class="black key" data-note="j">J</li>      
+        </ul></div>
     </main>
     <footer></footer>
+    <script src="../src/js/piano.js"></script>
     <script src="../src/js/navbar.js"></script>
 </body>
 
