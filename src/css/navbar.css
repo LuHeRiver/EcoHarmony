@@ -5,6 +5,8 @@ header{
     background-color: #F26419;
     padding: 0 1.5rem;
     z-index: 3;
+    position: sticky;
+    top: 0;
 }
 
 .logo{

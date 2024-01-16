@@ -6,6 +6,7 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
+    min-height: 800px;
 }
 
 .piano-title {
@@ -23,7 +24,6 @@ html{
     display: flex;
     margin: 50px;
     box-shadow: 0 0 7px #000;
-    overflow: hidden;
     position: fixed;
 }
 
