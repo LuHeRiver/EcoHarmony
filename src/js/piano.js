@@ -37,6 +37,10 @@ document.addEventListener('keydown', (event) => {
         if(event.key === pianoKeys[i][0]){
             let audio = new Audio(pianoKeys[i][1]);
             audio.play();
+            keys[i].classList.add('playing'); 
+            setTimeout(() => {
+                keys[i].classList.remove('playing'); 
+            }, pianoKeys[i][1].duration * 1000);
             return 0;
         }
     }

@@ -46,7 +46,9 @@ html{
     background-color: #F6AE2D;
     transform: translateY(-5px) scaleY(1);
 }
-
+.key.playing {
+    background-color: #F6AE2D;
+  }
 .white{
     width: 50px;
     height: 200px;
