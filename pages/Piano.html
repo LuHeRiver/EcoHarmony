@@ -10,8 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Alata&family=Didact+Gothic&family=Inter+Tight:wght@300&family=Jost:wght@200;300&family=Montserrat&display=swap"
         rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../src/css/pages.css">
     <link rel="stylesheet" href="../src/css/navbar.css">
     <link rel="stylesheet" href="../src/css/style.css">
@@ -21,11 +22,14 @@
     <header>
         <div>
             <a href="../index.html"><img class="logo" src="../public/assets/img/Logo_ecoHarmony.png" alt="Logo"></a>
-            <button onclick="cambiarTema()" class="btn rounded-fill"><i id="dl-icon" class="bi bi-moon-stars"></i></button>
+            <button onclick="cambiarTema()" class="btn rounded-fill"><i id="dl-icon"
+                    class="bi bi-moon-stars"></i></button>
         </div>
-        <button id="abrir" class="abrir-menu"><img src="../public/assets/img/OpenMenu.png" alt="icono para abrir menu"></i></button>
+        <button id="abrir" class="abrir-menu"><img src="../public/assets/img/OpenMenu.png"
+                alt="icono para abrir menu"></i></button>
         <nav class="nav" id="nav">
-            <button class="cerrar-menu" id="cerrar"><img src="../public/assets/img/CloseMenu.png" alt="icono cerrar menu"></i></button>
+            <button class="cerrar-menu" id="cerrar"><img src="../public/assets/img/CloseMenu.png"
+                    alt="icono cerrar menu"></i></button>
             <ul class="nav-list">
                 <li><a href="../index.html#somos">Somos</a></li>
                 <li><a href="../index.html#instrumentos">Instrumentos</a></li>
@@ -35,40 +39,50 @@
     </header>
     <main>
         <h2 class="piano-title">Piano virtual</h2>
-        <p class="instruccion">Instrucciones: puedes hacer sonar el piano, presionando <br>las teclas correspondientes en tu teclado o al hacer click en cada una de ellas.</p>
-        <div class="piano-div"><ul class="piano">
-            <li class="white key" data-note="q">Q</li>
-            <li class="white key" data-note="w">W</li>
-            <li class="white key" data-note="e">E</li>
-            <li class="white key" data-note="r">R</li>
-            <li class="white key" data-note="t">T</li>
-            <li class="white key" data-note="y">Y</li>
-            <li class="white key" data-note="u">U</li>
-            <li class="white key" data-note="z">Z</li>
-            <li class="white key" data-note="x">X</li>
-            <li class="white key" data-note="c">C</li>
-            <li class="white key" data-note="v">V</li>
-            <li class="white key" data-note="b">B</li>
-            <li class="white key" data-note="n">N</li>
-            <li class="white key" data-note="m">M</li>
+        <p class="instruccion">Instrucciones: puedes hacer sonar el piano, presionando <br>las teclas correspondientes
+            en tu teclado o al hacer click en cada una de ellas.</p>
+        <div class="piano-div">
+            <ul class="piano">
+                <div class="escala1">
+                    <li class="white key" data-note="q">Q</li>
+                    <li class="white key" data-note="w">W</li>
+                    <li class="white key" data-note="e">E</li>
+                    <li class="white key" data-note="r">R</li>
+                    <li class="white key" data-note="t">T</li>
+                    <li class="white key" data-note="y">Y</li>
+                    <li class="white key" data-note="u">U</li>
+
+                    <li id="bk-1" class="black key" data-note="2">2</li>
+                    <li id="bk-2" class="black key" data-note="3">3</li>
+                    <li id="bk-3" class="black key" data-note="5">5</li>
+                    <li id="bk-4" class="black key" data-note="6">6</li>
+                    <li id="bk-5" class="black key" data-note="7">7</li>
+                </div>
+                <div class="escala2">
+                    <li class="white key" data-note="z">Z</li>
+                    <li class="white key" data-note="x">X</li>
+                    <li class="white key" data-note="c">C</li>
+                    <li class="white key" data-note="v">V</li>
+                    <li class="white key" data-note="b">B</li>
+                    <li class="white key" data-note="n">N</li>
+                    <li class="white key" data-note="m">M</li>
     
-            <li id="bk-1" class="black key" data-note="2">2</li>
-            <li id="bk-2"class="black key" data-note="3">3</li>
-            <li id="bk-3" class="black key" data-note="5">5</li>
-            <li id="bk-4"class="black key" data-note="6">6</li>
-            <li id="bk-5" class="black key" data-note="7">7</li> 
-            <li id="bk-6"class="black key" data-note="s">S</li>
-            <li id="bk-7"class="black key" data-note="d">D</li>
-            <li id="bk-8"class="black key" data-note="g">G</li>
-            <li id="bk-9"class="black key" data-note="h">H</li>
-            <li id="bk-10"class="black key" data-note="j">J</li>      
-        </ul></div>
+                    <li id="bk-1" class="black key" data-note="s">S</li>
+                    <li id="bk-2" class="black key" data-note="d">D</li>
+                    <li id="bk-3" class="black key" data-note="g">G</li>
+                    <li id="bk-4" class="black key" data-note="h">H</li>
+                    <li id="bk-5" class="black key" data-note="j">J</li>
+                </div>
+            </ul>
+        </div>
     </main>
     <footer>
         <p>© 2024 EcoHarmony - Todos los derechos reservados</p>
         <div class="social-pages">
-            <a href="https://www.facebook.com/"><img class="social" src="../public/assets/img/footer/Facebook.png" alt="logo facebook"></a>
-            <a href="https://www.instagram.com/"><img class="social" src="../public/assets/img/footer/Instagram.png" alt="logo instagram"></a>
+            <a href="https://www.facebook.com/"><img class="social" src="../public/assets/img/footer/Facebook.png"
+                    alt="logo facebook"></a>
+            <a href="https://www.instagram.com/"><img class="social" src="../public/assets/img/footer/Instagram.png"
+                    alt="logo instagram"></a>
             <a href="https://github.com/"><img class="social" src="../public/assets/img/footer/GitHub.png" alt=""></a>
         </div>
     </footer>
