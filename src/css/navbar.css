@@ -84,13 +84,18 @@ footer{
 @media only screen and (max-width: 708px){
     footer p{
         font-size: 0.5em;
-        margin-left: 13%;
+        text-align: left;
+        padding: 5px;
     }
     footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0.2em;
-        gap: 20%;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    .social-pages{
+        text-align: right;    
+    }
+    .social{
+        max-width: 18px;
+        margin: 2px 4px;
     }
 }
