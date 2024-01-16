@@ -8,6 +8,10 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+.piano-body {
+    background-color: #33658A;
+}
+
 .piano-title {
     margin: 50px;
     text-align: center;
