@@ -40,14 +40,18 @@ body{
     align-items: center;
 }
 
-.piano{
+.piano {
     display: flex;
-    margin: 50px;
+    margin: 50px auto;
     overflow: hidden;
    /*  position: fixed; */
     background-color: black;
     padding: 50px 20px 10px 20px;
     border-radius: 15px;
+}
+
+.escala1, .escala2 {
+    display: flex;
 }
 
 /* .tecla{
@@ -80,7 +84,8 @@ body{
     border: 1px solid #000;
     border-radius: 0 0 5px 5px;
     cursor: pointer;
-    transition: border .5s ease;    
+    transition: border .5s ease;
+    color: #000000;
 }
 
 .black{
@@ -114,21 +119,42 @@ body{
 #bk-5 {
     margin-left: 285px;
 }
-#bk-6 {
-    margin-left: 385px;
-} 
-#bk-7 {
-    margin-left: 435px;
+
+@media screen and (max-width: 760px){
+    .piano {
+        flex-direction: column;
+        padding: 4%;
+    }
+    .piano-div{
+        margin: 0 5% 0 5%; 
+    }
+    .instruccion{
+        text-align: center;
+        font-size: 0.8em;
+        margin: 0 5% 0 5%;
+    }
+    #bk-1 {
+        margin-left: 28px;
+    }
+    
+    #bk-2 {
+        margin-left: 75px;
+    }
+    
+    #bk-3{
+        margin-left: 162px;
+    }
+    
+    #bk-4 {
+        margin-left: 210px;
+    }
+    
+    #bk-5 {
+        margin-left: 255px;
+    }
+    
 }
-#bk-8 {
-    margin-left: 535px;
-}
-#bk-9 {
-    margin-left: 585px;
-}
-#bk-10 {
-    margin-left: 635px;
-}
+
 /*Contacto*/
 
 .contacto {
@@ -212,7 +238,7 @@ body{
     border: 1px solid #F26419;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 760px) {
     .contact--img{
         display: none;
         

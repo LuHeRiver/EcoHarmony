@@ -6,6 +6,13 @@ let pianoKeys = [
     ["t", "../public/assets/audio/white-keys/t.mp3"],
     ["y", "../public/assets/audio/white-keys/y.mp3"],
     ["u", "../public/assets/audio/white-keys/u.mp3"],
+
+    ["2", "../public/assets/audio/black-keys/2.mp3"],
+    ["3", "../public/assets/audio/black-keys/3.mp3"],
+    ["5", "../public/assets/audio/black-keys/5.mp3"],
+    ["6", "../public/assets/audio/black-keys/6.mp3"],
+    ["7", "../public/assets/audio/black-keys/7.mp3"],
+    
     ["z", "../public/assets/audio/white-keys/z.mp3"],
     ["x", "../public/assets/audio/white-keys/x.mp3"],
     ["c", "../public/assets/audio/white-keys/c.mp3"],
@@ -13,11 +20,7 @@ let pianoKeys = [
     ["b", "../public/assets/audio/white-keys/b.mp3"],
     ["n", "../public/assets/audio/white-keys/n.mp3"],
     ["m", "../public/assets/audio/white-keys/m.mp3"],
-    ["2", "../public/assets/audio/black-keys/2.mp3"],
-    ["3", "../public/assets/audio/black-keys/3.mp3"],
-    ["5", "../public/assets/audio/black-keys/5.mp3"],
-    ["6", "../public/assets/audio/black-keys/6.mp3"],
-    ["7", "../public/assets/audio/black-keys/7.mp3"],
+    
     ["s", "../public/assets/audio/black-keys/s.mp3"],
     ["d", "../public/assets/audio/black-keys/d.mp3"],
     ["g", "../public/assets/audio/black-keys/g.mp3"],
