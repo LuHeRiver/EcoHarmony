@@ -261,6 +261,37 @@ body{
     text-align: right;
     margin-top: 0;
 }
+
+/* Guitarra */
+
+.fondoGuitarra {
+    background-image: url(../../public/assets/img/instruments/Guitarra.jpg);
+    background-size: cover;
+}
+
+/* Bateria */
+
+.fondoBateria {
+    background-image: url(../../public/assets/img/instruments/Bateria.jpg);
+    background-size: cover;
+}
+
+/* Piano */
+
+.fondoPiano {
+    background-image: url(../../public/assets/img/instruments/Piano.jpg);
+    background-size: cover;
+}
+
+/* Violin */
+
+.fondoViolin {
+    background-image: url(../../public/assets/img/instruments/Violin.jpg);
+    background-size: cover;
+}
+
+
+
 @media only screen and (max-width: 708px){
     .building{
         display: flex;
