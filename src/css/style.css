@@ -71,13 +71,33 @@ html {
 
 /* // Inicio somos */
 
+/* .row {
+    margin-left: 0;
+    margin-right: 0;
+}
 .row::after {
     content: "";
     clear: both;
     display: table;
-}
-
+    margin-right: 0;
+    margin-left: 0;
+} */
+/* #somos {
+    background-color: turquoise;
+} */
 @media only screen and (min-width: 708px) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-right: 0;
+        margin-left: 0;
+    }
 
     /* For desktop: */
     .col-1 {
@@ -191,6 +211,19 @@ html {
 
 @media only screen and (max-width: 708px) {
 
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     /*For mobile phone*/
     .col-1 {
         width: 25%;
@@ -249,11 +282,6 @@ html {
     .blueText {
         color: #33658A;
         font-weight: 900
-    }
-
-    .boxMusicians {
-        /* height: 50vh;
-        width: auto; */
     }
 
     .imgBox {
