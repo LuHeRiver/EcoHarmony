@@ -15,7 +15,8 @@ body{
     justify-content: space-between;
 }
 .piano-body {
-    background-color: #33658A;
+    background-image: url('../../public/assets/img/instruments/Piano.jpg');
+    background-size: cover;
 }
 
 .piano-title {
@@ -278,10 +279,10 @@ body{
 
 /* Piano */
 
-.fondoPiano {
+/* .fondoPiano {
     background-image: url(../../public/assets/img/instruments/Piano.jpg);
     background-size: cover;
-}
+} */
 
 /* Violin */
 
