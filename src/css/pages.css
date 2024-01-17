@@ -122,7 +122,36 @@ body{
 @media screen and (max-width: 760px){
     .piano {
         flex-direction: column;
+        padding: 4%;
     }
+    .piano-div{
+        margin: 0 5% 0 5%; 
+    }
+    .instruccion{
+        text-align: center;
+        font-size: 0.8em;
+        margin: 0 5% 0 5%;
+    }
+    #bk-1 {
+        margin-left: 28px;
+    }
+    
+    #bk-2 {
+        margin-left: 75px;
+    }
+    
+    #bk-3{
+        margin-left: 162px;
+    }
+    
+    #bk-4 {
+        margin-left: 210px;
+    }
+    
+    #bk-5 {
+        margin-left: 255px;
+    }
+    
 }
 
 /*Contacto*/
