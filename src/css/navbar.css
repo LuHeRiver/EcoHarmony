@@ -2,21 +2,30 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
     background-color: #F26419;
+    padding: 0 1.5rem;
+    z-index: 3;
+    position: sticky;
+    top: 0;
 }
+
 .logo{
-   max-width: 13rem;
+   width: 12rem;
+   margin-top: 0.2rem;
+   overflow: hidden;
 }
+
 .nav-list{
     display: flex;
     list-style: none;
     gap: 3rem;
+    align-items: center;
+    margin: 0;
 }
 .nav-list li a{
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 .nav-list li a:hover{
@@ -27,6 +36,9 @@ header{
     display: none;
 }
 @media only screen and (max-width: 708px){
+    header{
+        padding: 0 0.9rem;
+    }
     .logo{
         max-width: 8rem;
     }
@@ -34,10 +46,13 @@ header{
     .cerrar-menu{
         display: block;
         border: 0;
-        font-size: 1.2rem;
         background-color: transparent;
         cursor: pointer;
         color: white;
+    }
+    .cerrar-menu img {
+        height: 20px;
+        margin-top: -5px;
     }
     .nav{
         display: none; 
@@ -46,13 +61,15 @@ header{
         display: flex;
         flex-direction: column;
         align-items: end;
-        gap: 1rem;
+        gap: 1.5rem;
         position: absolute;
         top: 0;
         right: 0;
-        bottom: 0;
         background-color: #F26419;
-        padding: 2rem;
+        padding: 1rem 1rem 1rem 0;
+        z-index: 3;
+        border-radius: 0 10px;
+        box-shadow: 0 3px #ffffff;
     }
     .nav.visible{
         opacity: 1;
@@ -61,10 +78,53 @@ header{
     .nav-list{
         flex-direction: column;
         align-items: end;
+        gap: 1.5rem;
+        padding-left: 0.9rem;
     }
     .nav-list li a{
         font-size: 1em;
     }
+}
 
-
+/*-------------footer---------*/
+footer{
+    background-color: #F6AE2D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer p{
+    padding: 0.5em;
+    margin-top: 13px;
+}
+.social{
+    max-width: 10%;
+    margin: 5px 10px;
+}
+.social-pages{
+    text-align: right;
+}
+@media only screen and (max-width: 708px){
+    footer p{
+        font-size: 0.5em;
+        text-align: left;
+        padding: 5px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    .social-pages{
+        text-align: right;
+        margin-right: 5px;    
+    }
+    .social{
+        max-width: 18px;
+        margin: 2px 4px;
+    }
+    footer p{
+        padding: 0.5em;
+        margin-top: 18px;
+        margin-left: 5px;
+    }
 }
