@@ -410,6 +410,7 @@ html {
     text-align: justify;
     font-size: 0.75em;
     border-radius: 20px;
+    margin-top: 5%;
 }
 .texto-desktop{
     display: none;
@@ -441,7 +442,6 @@ html {
 .instruments{
     flex-direction: column;
     text-align: justify;
-    gap: 1%;
 }
 .description-instrument p{
     margin-top: 1em;
