@@ -102,4 +102,27 @@ html{
     .contact--form{
         width: 80%;
     }
+
+    .contacto {
+        background-color: #758E4F;
+        border: 1px solid #000;
+        border-radius: 10px;
+        width: 85%;
+        max-width: 900px;
+        /* height: 550px; */
+        margin: 30px auto;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contact--title {
+        text-align: center;
+        color: #F6AE2D;
+        font-size: 1.2em;
+        margin: 0 0 5px 0;
+        text-shadow: 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    }
+
 }
