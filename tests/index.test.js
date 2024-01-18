@@ -48,5 +48,11 @@ describe('Test contact', ()=> {
         expect(btSend).toBeInTheDocument();
     })
 
-    
+    test("labels must contain 'required", ()=> {
+        const inputs = document.querySelectorAll("input")
+        inputs.forEach(input => {
+            expect(input.hasAttribute('required')).toBe(true)
+        })
+
+    })
 })
