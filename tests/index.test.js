@@ -33,3 +33,20 @@ describe('Test index', () => {
     })
 })
 
+describe('Test contact', ()=> {
+    beforeEach(async () => {
+        dom = await JSDOM.fromFile("./pages/contacto.html", {
+            resources: "usable",
+            runScripts: "dangerously"
+        })
+        window = dom.window
+        document = dom.window.document
+    });
+
+    test('The send button exist', () =>{
+        const btSend = document.querySelector('.contact--button')
+        expect(btSend).toBeInTheDocument();
+    })
+
+    
+})
