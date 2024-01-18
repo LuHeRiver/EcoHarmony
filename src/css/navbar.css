@@ -36,6 +36,14 @@ header{
     display: none;
 }
 
+.dropdown-menu {
+    background-color: #F26419;
+}
+
+a:focus { 
+    outline-color: transparent; 
+    outline-style: none;
+}
 
 @media only screen and (max-width: 708px){
     header{
