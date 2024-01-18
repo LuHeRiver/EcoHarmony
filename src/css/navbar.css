@@ -35,6 +35,8 @@ header{
 .cerrar-menu{
     display: none;
 }
+
+
 @media only screen and (max-width: 708px){
     header{
         padding: 0 0.9rem;
