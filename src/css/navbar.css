@@ -35,6 +35,8 @@ header{
 .cerrar-menu{
     display: none;
 }
+
+
 @media only screen and (max-width: 708px){
     header{
         padding: 0 0.9rem;
@@ -69,7 +71,7 @@ header{
         padding: 1rem 1rem 1rem 0;
         z-index: 3;
         border-radius: 0 10px;
-        box-shadow: 0 3px #ffffff;
+        box-shadow: 0 3px #a34512;
     }
     .nav.visible{
         opacity: 1;
