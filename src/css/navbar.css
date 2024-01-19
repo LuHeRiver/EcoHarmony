@@ -18,7 +18,7 @@ header {
 .nav-list {
     display: flex;
     list-style: none;
-    gap: 3rem;
+    gap: 1.5rem;
     align-items: center;
     margin: 0;
 }
@@ -43,10 +43,6 @@ header {
     background-color: #F26419;
 }
 
-a:focus { 
-    outline-color: transparent; 
-    outline-style: none;
-}
 @media only screen and (max-width: 708px) {
     header {
         padding: 0 0.9rem;
@@ -95,7 +91,7 @@ a:focus {
 
     .nav-list {
         flex-direction: column;
-        align-items: end;
+        align-items: center;
         gap: 1.5rem;
         padding-left: 0.9rem;
     }
