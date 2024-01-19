@@ -2,9 +2,9 @@
 
 # Contenido
 + [Descripcion](#Descripción)
-+ Estructura.
-+ Cómo usar.
-+ Recursos externos.
++ [Estructura](#Estructura)
++ [Cómo usar](#Cómo usar)
++ [Recursos externos](#Recursos externos)
 
 ## Descripción 
 
