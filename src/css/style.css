@@ -71,13 +71,33 @@ html {
 
 /* // Inicio somos */
 
+/* .row {
+    margin-left: 0;
+    margin-right: 0;
+}
 .row::after {
     content: "";
     clear: both;
     display: table;
-}
-
+    margin-right: 0;
+    margin-left: 0;
+} */
+/* #somos {
+    background-color: turquoise;
+} */
 @media only screen and (min-width: 708px) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-right: 0;
+        margin-left: 0;
+    }
 
     /* For desktop: */
     .col-1 {
@@ -191,6 +211,19 @@ html {
 
 @media only screen and (max-width: 708px) {
 
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     /*For mobile phone*/
     .col-1 {
         width: 25%;
@@ -251,11 +284,6 @@ html {
         font-weight: 900
     }
 
-    .boxMusicians {
-        /* height: 50vh;
-        width: auto; */
-    }
-
     .imgBox {
         height: auto;
         width: 60vw;
@@ -282,7 +310,6 @@ html {
 
 /* // Inicio Instrumentos */
 .resume-instruments{
-    color: black;
     text-align: center;
     padding: 2rem;
     margin-top: 5%;
@@ -306,6 +333,9 @@ html {
     height: 380px;
     margin-top: 2%;
     font-size: 1em;
+    box-shadow: 2px 2px 5px 1px;
+    border-color: black;
+    border-style: solid;
 }
 .container-instrument{
     background-color: #F26419;
@@ -331,6 +361,9 @@ html {
     padding: 1em;
     text-align: center;
     margin-top: 4em;
+}
+.texto-mob{
+    display: none;
 }
 .description-instrument .boton-play{
     display: flex;
@@ -364,27 +397,35 @@ html {
 /* // Inicio somos */
 
 /* // Inicio Instrumentos */
-@media only screen and (max-width: 708px){
+@media screen and (max-width: 708px){
 .resume-instruments{
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 .container-instrument,
 .container-instrument-blue{
     display: flex;
     flex-direction: column;
-    width: 70%;
-    height: 250px;
-    margin-top: 2%;
+    width: 80%;
+    height: auto;
     text-align: justify;
     font-size: 0.75em;
     border-radius: 20px;
+    margin-top: 5%;
 }
-.container-instrument p,
-.container-instrument-blue p{
+.texto-desktop{
     display: none;
+}
+.texto-mob{
+    display: block;
+    color: white;
+    font-size: 1.4em;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .container-instrument .image-instrument{
     border-radius: 20px 20px 0 0;
+    margin-bottom: 0;
 }
 .container-instrument-blue{
     flex-direction: column-reverse;
@@ -395,8 +436,15 @@ html {
 }
 .boton-play{
     padding: 0;
-    margin-bottom: 5%;
-    margin-top: 4%;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.instruments{
+    flex-direction: column;
+    text-align: justify;
+}
+.description-instrument p{
+    margin-top: 1em;
 }
 }
 
