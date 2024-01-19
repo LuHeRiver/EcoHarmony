@@ -8,7 +8,7 @@ interactivos que te invitan a explorar y expresar tu creatividad. Descubre la ar
 la innovación en EcoHarmony, donde cada visita es una oportunidad para sumergirte en un mundo sonoro único.
 
 Equipo:
-*Saray Rodríguez, Percusionista.
-*María Andrea An, Pianista.
-*Lucero Hernández, Guitarrista.
-*Nhoeli Salazar, Violinista.
+* Saray Rodríguez, Percusionista.
+* María Andrea An, Pianista.
+* Lucero Hernández, Guitarrista.
+* Nhoeli Salazar, Violinista.
