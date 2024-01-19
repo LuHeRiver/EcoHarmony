@@ -4,7 +4,7 @@
 + [Descripcion](#Descripción)
 + [Estructura](#Estructura)
 + [Cómo usar](#Cómousar)
-+ [Recursos externos](#Recursos externos)
++ [Recursos externos](#Recursosexternos)
 
 ## Descripción 
 
