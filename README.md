@@ -1,6 +1,14 @@
 ![Logo_ecoHarmony](https://github.com/LuHeRiver/EcoHarmony/assets/136989574/a5c80b22-077e-49a2-97c9-8554a0a408c2)
 
-#**EcoHarmony**
+# Contenido
++ Descripción.
++ Estructura.
++ Cómo usar.
++ Recursos externos.
+
+## Descripción 
+
+**EcoHarmony**
 
 En EcoHarmony fusionamos la pasión por la música y la tecnología, creando una experiencia única para los amantes de 
 la música de todas las edades. Nuestra página web alberga una colección cautivadora de instrumentos musicales 
@@ -12,3 +20,39 @@ Equipo:
 + María Andrea An, Pianista.
 + Lucero Hernández, Guitarrista.
 + Nhoeli Salazar, Violinista.
+
+## Estructura
++ index.html: el archivo principal de la web.
++ pages:
+  > + Bateria.html.
+  > + Contacto.html
+  > + Guitarra.html.
+  > + Piano.html.
+  > + Violin.html.
++ src/css:
+  > + navbar.css
+  > + pages.css
+  > + style.css
++ src/js:
+  > + contacto.js
+  > + navbar.js
+  > + piano.js
++ Tests:
+  > + index.test.js
++ package-lock-json
++ package.json
+
+## Cómo usar.
+
++ Clona este repositorio en tu terminal : https://github.com/LuHeRiver/EcoHarmony.git
++ Abre el archivo index.html en tu navegador.
+
+## Recursos externos
+
++ Bootstrap.
++ Google fonts.
++ Jest.
++ Jsdom.
++ @testing-library/jest-dom.
+-------------------------------------------------------------------------------------------------------------------------
+
