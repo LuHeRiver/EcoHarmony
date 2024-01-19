@@ -29,6 +29,10 @@ Equipo:
   > + Guitarra.html.
   > + Piano.html.
   > + Violin.html.
++ public/assets:
+  > + audio.
+  > + img.
+  > + video.
 + src/css:
   > + navbar.css
   > + pages.css
