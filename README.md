@@ -3,8 +3,8 @@
 # Contenido
 + [Descripcion](#Descripción)
 + [Estructura](#Estructura)
-+ [Cómo usar](#Cómousar)
-+ [Recursos externos](#Recursosexternos)
++ [Cómo usar](#Cómo-usar)
++ [Recursos externos](#Recursos-externos)
 
 ## Descripción 
 
