@@ -1,7 +1,7 @@
 ![Logo_ecoHarmony](https://github.com/LuHeRiver/EcoHarmony/assets/136989574/a5c80b22-077e-49a2-97c9-8554a0a408c2)
 
 # Contenido
-+ Descripción.
++ [Descripcion](#Descripción)
 + Estructura.
 + Cómo usar.
 + Recursos externos.
