@@ -24,15 +24,15 @@ Equipo:
 ## Estructura
 + index.html: el archivo principal de la web.
 + pages:
-  > + Bateria.html.
+  > + Bateria.html
   > + Contacto.html
-  > + Guitarra.html.
-  > + Piano.html.
-  > + Violin.html.
+  > + Guitarra.html
+  > + Piano.html
+  > + Violin.html
 + public/assets:
-  > + audio.
-  > + img.
-  > + video.
+  > + audio
+  > + img
+  > + video
 + src/css:
   > + navbar.css
   > + pages.css
@@ -46,17 +46,17 @@ Equipo:
 + package-lock-json
 + package.json
 
-## Cómo usar.
+## Cómo usar
 
 + Clona este repositorio en tu terminal : https://github.com/LuHeRiver/EcoHarmony.git
 + Abre el archivo index.html en tu navegador.
 
 ## Recursos externos
 
-+ Bootstrap.
-+ Google fonts.
-+ Jest.
-+ Jsdom.
-+ @testing-library/jest-dom.
++ Bootstrap
++ Google fonts
++ Jest
++ Jsdom
++ @testing-library/jest-dom
 -------------------------------------------------------------------------------------------------------------------------
 
