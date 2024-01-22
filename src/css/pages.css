@@ -59,6 +59,7 @@ body{
 
 .escala1, .escala2 {
     display: flex;
+    padding: 0;
 }
 
 .key {
