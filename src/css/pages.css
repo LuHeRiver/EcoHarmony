@@ -13,25 +13,33 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-.piano-body {
-    background-image: url('../../public/assets/img/instruments/Piano.jpg');
-    background-size: cover;
-}
 
-.piano-title {
-    margin: 50px;
+.title {
+    margin: 20px;
     text-align: center;
     color: #F6AE2D;
     font-size: 2rem;
     text-shadow: 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
-.instruccion{
+.subtitle{
     color: white;
     text-align: center;
-    margin: 0;
 }
 
 /*Piano*/
+
+.piano-body {
+    background-image: url('../../public/assets/img/instruments/Piano.jpg');
+    background-size: cover;
+}
+
+.modo-horizontal {
+    display: none;
+}
+
+.no-disponible {
+    display: none;
+}
 
 .piano-div {
     display: flex;
@@ -41,9 +49,8 @@ body{
 
 .piano {
     display: flex;
-    margin: 50px auto;
+    margin: 20px auto;
     overflow: hidden;
-   /*  position: fixed; */
     background-color: black;
     padding: 50px 20px 10px 20px;
     border-radius: 15px;
@@ -51,11 +58,8 @@ body{
 
 .escala1, .escala2 {
     display: flex;
+    padding: 0;
 }
-
-/* .tecla{
-    position: absolute;
-} */
 
 .key {
     display: flex;
@@ -119,39 +123,77 @@ body{
     margin-left: 285px;
 }
 
-@media screen and (max-width: 760px){
-    .piano {
-        flex-direction: column;
-        padding: 4%;
+@media screen and (min-width: 600px) and (max-width: 767px){
+    
+    .white{
+        width: 40px;
+        height: 170px;
+        background-color: #FFFFFF;
+        border: 1px solid #000;
+        border-radius: 0 0 5px 5px;
+        cursor: pointer;
+        transition: border .5s ease;
+        color: #000000;
     }
-    .piano-div{
-        margin: 0 5% 0 5%; 
+    
+    .black{
+        width: 26px;
+        height: 100px;
+        background-color: #000000;
+        border: 1px solid #000;
+        border-radius: 0 0 5px 5px;
+        position: absolute;
+        cursor: pointer;
+        color: #fff;
+        transition: transform .3s ease;
     }
-    .instruccion{
-        text-align: center;
-        font-size: 0.8em;
-        margin: 0 5% 0 5%;
-    }
+    
     #bk-1 {
-        margin-left: 28px;
+        margin-left: 27px;
     }
     
     #bk-2 {
-        margin-left: 75px;
+        margin-left: 67px;
     }
     
     #bk-3{
-        margin-left: 162px;
+        margin-left: 147px;
     }
     
     #bk-4 {
-        margin-left: 210px;
+        margin-left: 187px;
     }
     
     #bk-5 {
-        margin-left: 255px;
+        margin-left: 227px;
     }
-    
+}
+
+@media screen and (max-width: 599px){
+    .piano {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+    .piano, .instrucciones {
+        display: none;
+    }
+
+    .modo-horizontal {
+        display: unset;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .piano, .instrucciones {
+        display: none;
+    } 
+
+    .no-disponible {
+        display: unset;
+    }
 }
 
 /*Contacto*/

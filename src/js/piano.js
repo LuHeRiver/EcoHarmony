@@ -12,7 +12,7 @@ let pianoKeys = [
     ["5", "../public/assets/audio/black-keys/5.mp3"],
     ["6", "../public/assets/audio/black-keys/6.mp3"],
     ["7", "../public/assets/audio/black-keys/7.mp3"],
-    
+
     ["z", "../public/assets/audio/white-keys/z.mp3"],
     ["x", "../public/assets/audio/white-keys/x.mp3"],
     ["c", "../public/assets/audio/white-keys/c.mp3"],
@@ -20,7 +20,7 @@ let pianoKeys = [
     ["b", "../public/assets/audio/white-keys/b.mp3"],
     ["n", "../public/assets/audio/white-keys/n.mp3"],
     ["m", "../public/assets/audio/white-keys/m.mp3"],
-    
+
     ["s", "../public/assets/audio/black-keys/s.mp3"],
     ["d", "../public/assets/audio/black-keys/d.mp3"],
     ["g", "../public/assets/audio/black-keys/g.mp3"],
@@ -30,7 +30,7 @@ let pianoKeys = [
 
 const keys = document.querySelectorAll('.key');
 
-for(let i=0; i<keys.length; i++){
+for (let i = 0; i < keys.length; i++) {
     keys[i].addEventListener('click', () => {
         let audio = new Audio(pianoKeys[i][1]);
         audio.play();
@@ -38,18 +38,15 @@ for(let i=0; i<keys.length; i++){
 }
 
 document.addEventListener('keydown', (event) => {
-    for(let i=0; i<keys.length; i++){
-        if(event.key === pianoKeys[i][0]){
+    for (let i = 0; i < keys.length; i++) {
+        if (event.key === pianoKeys[i][0]) {
             let audio = new Audio(pianoKeys[i][1]);
             audio.play();
-            keys[i].classList.add('playing'); 
+            keys[i].classList.add('playing');
             setTimeout(() => {
-                keys[i].classList.remove('playing'); 
+                keys[i].classList.remove('playing');
             }, 500);
             return 0;
         }
     }
 })
-
-
-
