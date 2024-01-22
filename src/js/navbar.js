@@ -9,8 +9,8 @@ cerrar.addEventListener("click", function cerrarMenu(){
     nav.classList.remove("visible");
 })
 
+//Tema Claro / Oscuro
 
-/*---Claro oscuro*/
 const temaOscuro = () => {
     document.querySelector("body").setAttribute("data-bs-theme", "dark");
     document.querySelector("#dl-icon").setAttribute("class", "bi bi-sun-fill");
