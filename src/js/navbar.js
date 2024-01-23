@@ -2,12 +2,14 @@ const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
 
-abrir.addEventListener("click", () =>{
+abrir.addEventListener("click", function abrirMenu(){
     nav.classList.add("visible");
 })
-cerrar.addEventListener("click", () =>{
+cerrar.addEventListener("click", function cerrarMenu(){
     nav.classList.remove("visible");
 })
+
+//Tema Claro / Oscuro
 
 const temaOscuro = () => {
     document.querySelector("body").setAttribute("data-bs-theme", "dark");
