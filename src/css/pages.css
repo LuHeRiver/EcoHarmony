@@ -192,6 +192,12 @@ body{
         display: unset;
         margin: auto;
     }
+    .video-tutorial{
+        display: none;
+    }
+    .video-tutorial h4{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 319px) {
