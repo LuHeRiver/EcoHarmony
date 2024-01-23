@@ -33,6 +33,14 @@ body{
 
 /*Piano*/
 
+.video-tutorial{
+    text-align: center;
+    padding: 5%;
+}
+.video-tutorial h4{
+    color: white;
+    padding: 20px;
+}
 .piano-div {
     display: flex;
     justify-content: center;
