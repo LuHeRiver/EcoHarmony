@@ -28,6 +28,14 @@ body{
 
 /*Piano*/
 
+.video-tutorial{
+    text-align: center;
+    padding: 5%;
+}
+.video-tutorial h4{
+    color: white;
+    padding: 20px;
+}
 .piano-body {
     background-image: url('../../public/assets/img/instruments/Piano.jpg');
     background-size: cover;
@@ -183,6 +191,12 @@ body{
     .modo-horizontal {
         display: unset;
         margin: auto;
+    }
+    .video-tutorial{
+        display: none;
+    }
+    .video-tutorial h4{
+        display: none;
     }
 }
 
