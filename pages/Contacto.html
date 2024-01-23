@@ -40,7 +40,7 @@
             <div class="contact--div">
                 <img class="contact--img" src="../public/assets/img/clave de sol.png" alt="Clave de Sol">
                 <form class="contact--form" id="form" action="">
-                    <label for="name">Nombre</label><input id="name" required>
+                    <label for="name">Nombre</label><input id="name" name="nombre" pattern="[A-Za-zÁáÉéÍíÓóÚúÜüÑñ\s]+" title="Solo se permiten caracteres de letras y espacios. No caracteres especiales ni números." required>
                     <label for="email">Email</label><input type="email" required id="email">
                     <label for="msg">Mensaje</label><textarea id="msg" rows="5" required></textarea>
                     <button class="contact--button" type="submit" onclick="valida_form()">Enviar</button>
